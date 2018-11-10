@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Page to the masculine given name Michael">
+        <meta name="description" content="Tribute page to the masculine given name Michael">
+        <meta name="keywords" content="michael, page, tribute">
         <meta name="author" content="Carles Capellas">
 
         <title>Michael</title>
 
         <link href="/vendor/bootstrap/css/bootstrap.min.css?$modena=michael" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-        <link href="/css/stylish-portfolio.css?$modena=michael" rel="stylesheet">
+        <link href="/css/michael.css?$modena=michael" rel="stylesheet">
     </head>
 
-    <body id="page-top">
+    <body id="michael-page">
         <header class="masthead d-flex">
             <div class="container text-center my-auto">
                 <h1 class="mb-1">Michael</h1>
@@ -33,7 +34,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
-                        <ul style="list-style-type: none; padding: 0;">
+                        <ul class="michaels-list" style="list-style-type: none; padding: 0;">
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Ancram" title="Michael Ancram">M. Ancram</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Aspel" title="Michael Aspel">M. Aspel</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Buffer" title="Michael Buffer">M. Buffer</a></li>
@@ -44,7 +45,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
-                        <ul style="list-style-type: none; padding: 0;">
+                        <ul class="michaels-list" style="list-style-type: none; padding: 0;">
 	                        <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Eisner" title="Michael Eisner">M. Eisner</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Epstein_(disambiguation)" class="mw-redirect mw-disambig" title="Michael Epstein">M. Epstein</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_J._Fox" title="Michael J. Fox">M. J. Fox</a></li>
@@ -54,7 +55,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-5 mb-md-0">
-                        <ul style="list-style-type: none; padding: 0;">
+                        <ul class="michaels-list" style="list-style-type: none; padding: 0;">
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Jordan" title="Michael Jordan">M. Jordan</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Keaton" title="Michael Keaton">M. Keaton</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Knight_(disambiguation)" class="mw-redirect mw-disambig" title="Michael Knight">M. Knight</a></li>
@@ -65,7 +66,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
-                        <ul style="list-style-type: none; padding: 0;">
+                        <ul class="michaels-list" style="list-style-type: none; padding: 0;">
 		                    <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Owen" title="Michael Owen">M. Owen</a></li>
 	                        <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Palin" title="Michael Palin">M. Palin</a></li>
                             <li><a class="btn btn-dark btn-xl mb-1" target="_blank" href="https://en.wikipedia.org/wiki/Michael_Roll_(basketball)" title="Michael Roll (basketball)">M. Roll</a></li>
@@ -79,11 +80,11 @@
         </section>
 
         <section class="content-section bg-light" id="about">
-            <div class="container text-center">
+            <div class="container text-center michael-quotes">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
                         <p class="lead mb-5">Famous quote that Michael <b>DIDN'T</b> say</p>
-                        <div id="quote-zone"></div>
+                        <div id="michael-quote"></div>
                         <button class="btn btn-primary btn-xl" type="button" onclick="randomJoke();">
                             Random quote
                         </button>
@@ -97,8 +98,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p class="mb-1">We created this page as a tribute to all the Michaels of the world. Who doesn't have a Micheal in their life?</p>
-                        <p class="mb-1">We understand though that the domain name is very exclusive. In case you are interested in acquiring it please contact us at <b>show.us.the.money@michael.page</b>.</p>
-                        <p class="mb-1">We will considerate selling as long as the new purpose for the page is legit</p>
+                        <p class="mb-1">We understand though that the domain name is very exclusive. In case you are interested in acquiring it please contact us at <b>purchase@michael.page</b>.</p>
                     </div>
                 </div>
             </div>
@@ -107,70 +107,7 @@
         <script src="/vendor/jquery/jquery.min.js?$modena=michael"></script>
         <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js?$modena=michael"></script>
         <script src="/vendor/jquery-easing/jquery.easing.min.js?$modena=michael"></script>
-        <script src="/js/stylish-portfolio.min.js?$modena=michael"></script>
-
-        <script>
-    	    var quotes = [
-                'I used to think I was indecisive, but now I\'m not too sure.',
-                'Doing nothing is hard, you never know when you\'re done.',
-                'If two wrongs don\'t make a right, try three.',
-                'I am not lazy, I am on energy saving mode.',
-                'Life is short, smile while you still have teeth.',
-                'A balanced diet means a cupcake in each hand.',
-                'Maybe you should eat some makeup so you can be pretty on the inside too.',
-                'I\'m not shy, I\'m holding back my awesomeness so I don\'t intimidate you.',
-                'Sorry for the mean, awful, accurate things I said.',
-                'I’m sorry, if you were right, I’d agree with you.',
-                'Your life can\'t fall apart if you never had it together!',
-                'People say nothing is impossible, but I do nothing every day.',
-                'A bank is a place that will lend you money if you can prove that you don\'t need it.',
-                'If you think nobody cares if you\'re alive, try missing a couple of payments.',
-                'Always remember that you\'re unique. Just like everyone else.',
-                'The answer you\'re looking for is inside of you, but it\'s wrong',
-                'One advantage of talking to yourself is that you know at least somebody\'s listening.',
-                'The elevator to success is out of order. You\'ll have to use the stairs.',
-                'An apple a day keeps anyone away if you throw it hard enough.',
-                'The more you weight the harder you are to kidnap. Stay safe, eat cake.'
-            ];
-
-            var michaels = [
-                'Michael Ancram',
-                'Michael Aspel',
-                'Michael Buffer',
-                'Michael Caine',
-                'Michael Clifford',
-                'Michael Crichton',
-                'Michael Douglas',
-                'Michael Eisner',
-                'Michael Epstein',
-                'Michael J. Fox',
-                'Michael Holton',
-                'Michael Hutchence',
-                'Michael Jackson',
-                'Michael Jordan',
-                'Michael Keaton',
-                'Michael Knight',
-                'Michael Marmot',
-                'Michael Moore',
-                'Michael Myers',
-                'Michael Nesmith',
-                'Michael Owen',
-                'Michael Palin',
-                'Michael Roll',
-                'Michael Schumacher',
-                'Michael Warren',
-                'Michael Wilbon'
-            ];
-
-            function randomJoke() {
-                var quote = quotes[Math.floor(Math.random() * quotes.length)];
-                var michael = michaels[Math.floor(Math.random() * michaels.length)];
-
-                $('#quote-zone').html(
-                    '<h3 class="text-secondary mb-2">"' + quote + '"</h3>' +
-                    '<h3 class="text-secondary mb-5">- ' + michael + '</h3>');
-            }
-            randomJoke();
-        </script>
+        <script src="/js/michael.js?$modena=michael"></script>
+        <script src="/js/michael-quotes.js?$modena=michael"></script>
     </body>
 </html>
