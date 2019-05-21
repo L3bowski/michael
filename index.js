@@ -1,14 +1,11 @@
-const express = require('express');
-const server = express();
-const { join } = require('path');
+const getExpressApp = require('./get-express-app');
 
-server.use('/', express.static(join(__dirname, 'public')));
-
-server.listen(80, error => {
+const app = getExpressApp();
+app.listen(3000, error => {
 	if (error) {
 		console.error(error);
 	}
 	else {
-		console.log('Express server listening on port 80');
+		console.log('Express server listening on port 3000');
 	}
 });
